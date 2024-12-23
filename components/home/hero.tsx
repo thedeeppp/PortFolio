@@ -28,7 +28,7 @@ const HeroSection = React.memo(() => {
       strings: TYPED_STRINGS,
       typeSpeed: 50,
       backSpeed: 50,
-      backDelay: 8000,
+      backDelay: 2000,
       loop: true,
     });
   };

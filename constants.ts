@@ -31,8 +31,8 @@ export const MENULINKS = [
 export const TYPED_STRINGS = [
   "I develop seamless fullstack apps",
   "I develop modern frontend apps",
-  "I design dynamic user experience",
   "I develop modern DApps",
+  "I design dynamic user experience",
 ];
 
 export const EMAIL = "deepbtrivedi04@gmail.com";
@@ -73,7 +73,7 @@ export const PROJECTS: IProject[] = [
     description: "URL shortner with analytics and custom short links",
     gradient: ["#153BB9", "#0E2C8B"],
     url: "https://www.github.com/thedeeppp/url-shortner/",
-    tech: ["react", "next", "gsap", "tailwind"],
+    tech: ["javascript", "gsap", "tailwind", "go", "mongodb"],
   },
   {
     name: "Solana wallet adapter DApp",
@@ -82,7 +82,7 @@ export const PROJECTS: IProject[] = [
     description: "A very basic DApp to interact with Solana wallet adapter",
     gradient: ["#245B57", "#004741"],
     url: "https://www.github.com/thedeeppp/solana-wallet-adapter/",
-    tech: ["figma", "angular", "gsap"],
+    tech: ["javascript", "react", "gsap"],
   },
   
 ];
@@ -93,6 +93,8 @@ export const SKILLS = {
     "rust", 
     "nodejs",
     "express",
+    "mongodb",
+    "postman",
     "next",
     "react",
     "typescript",
@@ -150,7 +152,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     title: "Frontend Engineer @Phyllo (June'24 - Aug'24)",
     size: ItemSize.SMALL,
     subtitle:
-      "Frontend Engineering @ Core team, solving problems around Livingroom device performance",
+      "Frontend Engineering @Core team, solving problems around Livingroom device performance",
     // image: "/timeline/hotstar.",
     slideImage: "/timeline/Phyllo.jpg",
     shouldDrawLine: true,
